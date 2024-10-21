@@ -1,0 +1,45 @@
+{
+  "syncType": 3,
+  "conversations": [
+    {
+      "ID": "5514981148480@s.whatsapp.net",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "5514981148480@s.whatsapp.net",
+              "fromMe": true,
+              "ID": "FA34DA7C7990F1023CE686CBC5C97CCB"
+            },
+            "messageTimestamp": 1729539017,
+            "status": 1,
+            "messageStubType": 39,
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 3
+        }
+      ]
+    },
+    {
+      "ID": "5521987961888@s.whatsapp.net",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "5521987961888@s.whatsapp.net",
+              "fromMe": true,
+              "ID": "CB7300ADEE376ED297F37B8CB298B041"
+            },
+            "messageTimestamp": 1729534354,
+            "status": 1,
+            "messageStubType": 39,
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 2
+        }
+      ]
+    }
+  ],
+  "chunkOrder": 1,
+  "progress": 100
+}
