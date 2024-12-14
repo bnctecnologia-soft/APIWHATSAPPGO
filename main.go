@@ -35,7 +35,7 @@ var (
 	colorOutput = flag.Bool("color", false, "Enable colored output for console logs")
 	sslcert     = flag.String("sslcertificate", "", "SSL Certificate File")
 	sslprivkey  = flag.String("sslprivatekey", "", "SSL Certificate Private Key File")
-	adminToken  = flag.String("admintoken", "", "Security Token to authorize admin actions (list/create/remove users)")
+	adminToken  = flag.String("admintoken", "meutoken123", "Security Token to authorize admin actions (list/create/remove users)")
 	container   *sqlstore.Container
 
 	killchannel   = make(map[int](chan bool))

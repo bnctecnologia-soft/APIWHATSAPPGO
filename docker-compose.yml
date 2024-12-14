@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: apiwhatsapp_app
+    environment:
+      - APIWHATSAPP_ADMIN_TOKEN=SetToRandomAndSecureTokenForAdminTasks
+    volumes:
+      - ./dbdata:/app/dbdata
+      - ./files:/app/files
+    ports:
+      - "8080:8080" # Altere a porta conforme necessário
+
+volumes:
+  dbdata:

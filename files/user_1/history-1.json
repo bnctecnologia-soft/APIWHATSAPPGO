@@ -1,3 +1,405 @@
 {
-  "syncType": 4
+  "syncType": 0,
+  "conversations": [
+    {
+      "ID": "5521974657045@s.whatsapp.net",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "5521974657045@s.whatsapp.net",
+              "fromMe": true,
+              "ID": "3EB0D27583D3BCF92DDC1E"
+            },
+            "message": {
+              "conversation": "ahjasjdahdjvasgsdv"
+            },
+            "messageTimestamp": 1734099808,
+            "status": 4,
+            "userReceipt": [
+              {
+                "userJID": "5521974657045@s.whatsapp.net",
+                "receiptTimestamp": 1734099809,
+                "readTimestamp": 1734099984,
+                "playedTimestamp": 0
+              }
+            ],
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 101
+        }
+      ],
+      "unreadCount": 20,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "ephemeralSettingTimestamp": 0,
+      "conversationTimestamp": 1734099808,
+      "notSpam": true,
+      "archived": false,
+      "disappearingMode": {
+        "initiator": 0
+      },
+      "unreadMentionCount": 0,
+      "markedAsUnread": false,
+      "tcToken": "AwEgOKOtkUEvd4E=",
+      "tcTokenTimestamp": 1733142595,
+      "contactPrimaryIdentityKey": "uKG2tmTrj7PEFXNbf7i8F/i03oDx939Ijrh/Mjwy7jU=",
+      "tcTokenSenderTimestamp": 1731976446,
+      "lidJID": "120379460857961@lid",
+      "commentsCount": 1000000,
+      "locked": false
+    },
+    {
+      "ID": "120363356550525863@g.us",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "120363356550525863@g.us",
+              "fromMe": true,
+              "ID": "1192065115"
+            },
+            "messageTimestamp": 1733165460,
+            "status": 1,
+            "participant": "5521987961888@s.whatsapp.net",
+            "messageStubType": 20,
+            "messageStubParameters": [
+              "grupo teste"
+            ],
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 93
+        }
+      ],
+      "unreadCount": 0,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "ephemeralSettingTimestamp": 0,
+      "conversationTimestamp": 1733165460,
+      "name": "grupo teste",
+      "pHash": "1:PXJuPgwW",
+      "notSpam": true,
+      "archived": false,
+      "disappearingMode": {
+        "initiator": 0
+      },
+      "unreadMentionCount": 0,
+      "markedAsUnread": false,
+      "suspended": false,
+      "isDefaultSubgroup": false,
+      "commentsCount": 1000000,
+      "locked": false
+    },
+    {
+      "ID": "120363373324198497@g.us",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "120363373324198497@g.us",
+              "fromMe": true,
+              "ID": "3EB06BA9621DA667233975"
+            },
+            "message": {
+              "conversation": "olaaa"
+            },
+            "messageTimestamp": 1733164852,
+            "status": 2,
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 92
+        }
+      ],
+      "unreadCount": 0,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "ephemeralSettingTimestamp": 0,
+      "conversationTimestamp": 1733164852,
+      "name": "Grupo teste",
+      "pHash": "1:PXJuPgwW",
+      "notSpam": true,
+      "archived": false,
+      "disappearingMode": {
+        "initiator": 0
+      },
+      "unreadMentionCount": 0,
+      "markedAsUnread": false,
+      "suspended": false,
+      "isDefaultSubgroup": false,
+      "commentsCount": 1000000,
+      "locked": false
+    },
+    {
+      "ID": "5521964299908@s.whatsapp.net",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "5521964299908@s.whatsapp.net",
+              "fromMe": false,
+              "ID": "22B08B66D7FF953CDE9FD743623A5FA2"
+            },
+            "message": {
+              "stickerMessage": {
+                "URL": "https://mmg.whatsapp.net/v/t62.15575-24/23559284_436306332693758_5451569404081618866_n.enc?ccb=11-4\u0026oh=01_Q5AaIDiHDAvXpmAkG2VckPf-hZefSdsvZ1JErcgnGSI7_IA9\u0026oe=67747296\u0026_nc_sid=5e03e0\u0026mms3=true",
+                "fileSHA256": "pdo60IpUF+sZxZDuu3rtEmFg9Akq+/2tH1SJlihTsbA=",
+                "fileEncSHA256": "ojL2QwSQvP7gphTxrZvC2rKRPTxC/vTYxTNX8oqykgo=",
+                "mediaKey": "Ep14Y3L6sab6APMpL9oK1SRzdPgiP+//uQ2FEYL5qqg=",
+                "mimetype": "image/webp",
+                "height": 64,
+                "width": 64,
+                "directPath": "/v/t62.15575-24/23559284_436306332693758_5451569404081618866_n.enc?ccb=11-4\u0026oh=01_Q5AaIDiHDAvXpmAkG2VckPf-hZefSdsvZ1JErcgnGSI7_IA9\u0026oe=67747296\u0026_nc_sid=5e03e0",
+                "fileLength": 80890,
+                "mediaKeyTimestamp": 1733097798,
+                "isAnimated": false,
+                "stickerSentTS": 1733097799000,
+                "isAvatar": false,
+                "isAiSticker": false,
+                "isLottie": false
+              }
+            },
+            "messageTimestamp": 1733097799,
+            "mediaData": {
+              "localPath": "Media/WhatsApp Business Stickers/STK-20241201-WA0000.webp"
+            },
+            "reportingTokenInfo": {
+              "reportingTag": "AY/OtF8PdLdvMMBgyZV5iatw4cI="
+            },
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 75
+        }
+      ],
+      "unreadCount": 0,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "ephemeralSettingTimestamp": 0,
+      "conversationTimestamp": 1733097799,
+      "notSpam": true,
+      "archived": false,
+      "disappearingMode": {
+        "initiator": 0
+      },
+      "unreadMentionCount": 0,
+      "markedAsUnread": false,
+      "tcToken": "AwEgeuc2wr30CT8=",
+      "tcTokenTimestamp": 1733097799,
+      "contactPrimaryIdentityKey": "10swJPwLpArtFjuzvrKQm/O2e0R3FxeLca6qOhQHxGA=",
+      "lidJID": "162676651081778@lid",
+      "commentsCount": 1000000,
+      "locked": false
+    },
+    {
+      "ID": "5521972260072@s.whatsapp.net",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "5521972260072@s.whatsapp.net",
+              "fromMe": false,
+              "ID": "3A411245ACFAA748CB8A"
+            },
+            "message": {
+              "conversation": "Ok"
+            },
+            "messageTimestamp": 1732932259,
+            "reportingTokenInfo": {
+              "reportingTag": "AY/O8rqQRsdrJcsnhByUcsL+POk="
+            },
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 60
+        }
+      ],
+      "unreadCount": 0,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "ephemeralSettingTimestamp": 0,
+      "conversationTimestamp": 1732932259,
+      "notSpam": true,
+      "archived": false,
+      "disappearingMode": {
+        "initiator": 0
+      },
+      "unreadMentionCount": 0,
+      "markedAsUnread": false,
+      "tcToken": "AwEgZj9QHxkMXVY=",
+      "tcTokenTimestamp": 1732932259,
+      "contactPrimaryIdentityKey": "1KCWV801mfhsitERFucOdLq9QlRQvbM6qzfCAOjbJnA=",
+      "lidJID": "37624031002694@lid",
+      "commentsCount": 1000000,
+      "locked": false
+    },
+    {
+      "ID": "21974657045@s.whatsapp.net",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "21974657045@s.whatsapp.net",
+              "fromMe": true,
+              "ID": "3EB04D2411FD00E7A65E16"
+            },
+            "message": {
+              "conversation": "teste"
+            },
+            "messageTimestamp": 1732931428,
+            "status": 2,
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 51
+        }
+      ],
+      "unreadCount": 0,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "ephemeralSettingTimestamp": 0,
+      "conversationTimestamp": 1732931428,
+      "notSpam": true,
+      "archived": false,
+      "disappearingMode": {
+        "initiator": 0
+      },
+      "unreadMentionCount": 0,
+      "markedAsUnread": false,
+      "commentsCount": 1000000,
+      "locked": false
+    },
+    {
+      "ID": "21972260072@s.whatsapp.net",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "21972260072@s.whatsapp.net",
+              "fromMe": true,
+              "ID": "3EB037B1FAC1929B208673"
+            },
+            "message": {
+              "conversation": "teste2"
+            },
+            "messageTimestamp": 1731034031,
+            "status": 2,
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 30
+        }
+      ],
+      "unreadCount": 0,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "ephemeralSettingTimestamp": 0,
+      "conversationTimestamp": 1731034031,
+      "notSpam": true,
+      "archived": false,
+      "disappearingMode": {
+        "initiator": 0
+      },
+      "unreadMentionCount": 0,
+      "markedAsUnread": false,
+      "commentsCount": 1000000,
+      "locked": false
+    },
+    {
+      "ID": "5521920022081@s.whatsapp.net",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "5521920022081@s.whatsapp.net",
+              "fromMe": false,
+              "ID": "7129EE2C39FEA72BA5E1A4EB1D366BBE"
+            },
+            "message": {
+              "conversation": "Oi"
+            },
+            "messageTimestamp": 1731012890,
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 24
+        }
+      ],
+      "unreadCount": 2,
+      "readOnly": false,
+      "ephemeralExpiration": 0,
+      "ephemeralSettingTimestamp": 0,
+      "conversationTimestamp": 1731012890,
+      "notSpam": false,
+      "archived": false,
+      "disappearingMode": {
+        "initiator": 0
+      },
+      "unreadMentionCount": 0,
+      "markedAsUnread": false,
+      "tcToken": "AwGTcCFvbcUTiWc=",
+      "tcTokenTimestamp": 1731012890,
+      "contactPrimaryIdentityKey": "WtkNro6+iWih/+cqqU8wpz2qrnQSX06XQfszjtLGclQ=",
+      "lidJID": "93707663585314@lid",
+      "commentsCount": 1000000,
+      "locked": false
+    },
+    {
+      "ID": "5521978725131@s.whatsapp.net",
+      "messages": [
+        {
+          "message": {
+            "key": {
+              "remoteJID": "5521978725131@s.whatsapp.net",
+              "fromMe": true,
+              "ID": "F35183014169E8A1DF1ACCE259DBAAF4"
+            },
+            "messageTimestamp": 1730075286,
+            "status": 1,
+            "messageStubType": 130,
+            "messageStubParameters": [
+              "604800",
+              "5521978725131@s.whatsapp.net"
+            ],
+            "isMentionedInStatus": false
+          },
+          "msgOrderID": 14
+        }
+      ],
+      "unreadCount": 0,
+      "readOnly": false,
+      "ephemeralExpiration": 604800,
+      "ephemeralSettingTimestamp": 1704126280,
+      "conversationTimestamp": 1730075610,
+      "notSpam": true,
+      "archived": false,
+      "disappearingMode": {
+        "initiator": 2
+      },
+      "unreadMentionCount": 0,
+      "markedAsUnread": false,
+      "tcToken": "AwESQonRHQgU2dw=",
+      "tcTokenTimestamp": 1730075363,
+      "contactPrimaryIdentityKey": "THJzJgM6tkySFNvlL1rv7w1gjUkAzEULD2WDfDbg3i4=",
+      "lidJID": "77691965419543@lid",
+      "commentsCount": 1000000,
+      "locked": false
+    }
+  ],
+  "globalSettings": {},
+  "threadIDUserSecret": "AWKNOJkivaKfakFm4BvZRbCfK70cIZi3CgHQonN6kro=",
+  "threadDsTimeframeOffset": 56108,
+  "phoneNumberToLidMappings": [
+    {
+      "pnJID": "5521974657045@s.whatsapp.net",
+      "lidJID": "120379460857961@lid"
+    },
+    {
+      "pnJID": "5521964299908@s.whatsapp.net",
+      "lidJID": "162676651081778@lid"
+    },
+    {
+      "pnJID": "5521972260072@s.whatsapp.net",
+      "lidJID": "37624031002694@lid"
+    },
+    {
+      "pnJID": "5521920022081@s.whatsapp.net",
+      "lidJID": "93707663585314@lid"
+    }
+  ],
+  "companionMetaNonce": "zCSV/xZ+6pHq6V+P+AJTiAQYn0PuEVGh"
 }

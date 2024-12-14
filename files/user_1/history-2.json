@@ -1,3 +1,25 @@
 {
-  "syncType": 1
+  "syncType": 4,
+  "pushnames": [
+    {
+      "ID": "5521974657045@s.whatsapp.net",
+      "pushname": "Bruno Carvalho"
+    },
+    {
+      "ID": "5521978725131@s.whatsapp.net",
+      "pushname": "Nascimento"
+    },
+    {
+      "ID": "5521964299908@s.whatsapp.net",
+      "pushname": "Victor Carvalho"
+    },
+    {
+      "ID": "5521920022081@s.whatsapp.net",
+      "pushname": "Paz ,saúde A Tds."
+    },
+    {
+      "ID": "5521972260072@s.whatsapp.net",
+      "pushname": "Fabio"
+    }
+  ]
 }
