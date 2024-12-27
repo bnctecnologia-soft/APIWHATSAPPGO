@@ -44,7 +44,6 @@ var (
 )
 
 func init() {
-
 	flag.Parse()
 
 	if *logType == "json" {
@@ -59,17 +58,16 @@ func init() {
 			*adminToken = v
 		}
 	}
-
 }
 
 func main() {
-
 	ex, err := os.Executable()
 	if err != nil {
 		panic(err)
 	}
 	exPath := filepath.Dir(ex)
 
+	// Diretório do banco de dados
 	dbDirectory := exPath + "/dbdata"
 	_, err = os.Stat(dbDirectory)
 	if os.IsNotExist(err) {
@@ -79,18 +77,13 @@ func main() {
 		}
 	}
 
+	// Conectando ao banco de dados existente
 	db, err := sql.Open("sqlite", exPath+"/dbdata/users.db?_pragma=foreign_keys(1)&_busy_timeout=3000")
 	if err != nil {
 		log.Fatal().Err(err).Msg("Could not open/create " + exPath + "/dbdata/users.db")
 		os.Exit(1)
 	}
 	defer db.Close()
-
-	sqlStmt := `CREATE TABLE IF NOT EXISTS users (id INTEGER NOT NULL PRIMARY KEY, name TEXT NOT NULL, token TEXT NOT NULL, webhook TEXT NOT NULL default "", jid TEXT NOT NULL default "", qrcode TEXT NOT NULL default "", connected INTEGER, expiration INTEGER, events TEXT NOT NULL default "All");`
-	_, err = db.Exec(sqlStmt)
-	if err != nil {
-		panic(fmt.Sprintf("%q: %s\n", err, sqlStmt))
-	}
 
 	if *waDebug != "" {
 		dbLog := waLog.Stdout("Database", *waDebug, *colorOutput)
@@ -119,32 +112,28 @@ func main() {
 		WriteTimeout:      120 * time.Second,
 		IdleTimeout:       180 * time.Second,
 	}
-
 	done := make(chan os.Signal, 1)
 	signal.Notify(done, os.Interrupt, syscall.SIGINT, syscall.SIGTERM)
 
 	go func() {
 		if *sslcert != "" {
 			if err := srv.ListenAndServeTLS(*sslcert, *sslprivkey); err != nil && err != http.ErrServerClosed {
-				//log.Fatalf("listen: %s\n", err)
 				log.Fatal().Err(err).Msg("Startup failed")
 			}
 		} else {
 			if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
-				//log.Fatalf("listen: %s\n", err)
 				log.Fatal().Err(err).Msg("Startup failed")
 			}
 		}
 	}()
-	//wlog.Infof("Server Started. Listening on %s:%s", *address, *port)
+
 	log.Info().Str("address", *address).Str("port", *port).Msg("Server Started")
 
 	<-done
-	log.Info().Msg("Server Stoped")
+	log.Info().Msg("Server Stopped")
 
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer func() {
-		// extra handling here
 		cancel()
 	}()
 
